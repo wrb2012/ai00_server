@@ -30,7 +30,7 @@ jobs:
             os: ubuntu-latest
             rust: stable
           - build: macos
-            os: macos-latest
+            os: macos-13
             MACOSX_DEPLOYMENT_TARGET: 10.7
             rust: stable
           - build: macos_arm64
